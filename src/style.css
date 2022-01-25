@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap');
+
+:root {
+    --card-bg-color: #1a1b21;
+    --bg-color: #23252c;
+    --font-color: #fff;
+    --font2nd-color: #f3bf99;
+    --font3rd-color: #f5f5f5;
+    --font4nd-color: #dcdcdc;
+    --email-font-color: #374151;
+    --social-bg-color: #161619;
+    --social-icon-color: #918e9b;
+    --linkedln-color: #5093e2;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--bg-color);
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.container {
+    max-width: 317px;
+    background-color: var(--card-bg-color);
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card > .image {
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card > h1 {
+    color: var(--font-color);
+    padding-top: 1.5rem;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.card > h2 {
+    color: var(--font2nd-color);
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1rem;
+    padding-top: 0.5rem;
+}
+
+.card > p {
+    font-size: 0.64rem;
+    color: var(--font3rd-color);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1rem;
+    padding-block: 1rem;
+}
+
+.btn > .linkedin-btn {
+    background-color: var(--linkedln-color);
+    color: var(--font-color);
+}
+
+.btn > .email-btn {
+    color: var(--email-font-color)
+}
+
+.btn > button {
+    width: 115px;
+    height: 35px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.btn > button > svg {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: -0.2rem;
+}
+
+button + button {
+    margin-left: 1rem;
+}
+
+.content{
+    margin: 2.06rem 2.125rem 1.5rem 2.25rem;
+}
+
+.content > h2 {
+    color: var(--font3rd-color);
+    font-size: 1rem;
+    line-height: 24px;
+    margin-bottom: 0.3rem;
+}
+
+.content > p {
+    color: var(--font4nd-color);
+    font-size: 0.64rem;
+    line-height: 15px;
+    margin-bottom: 1.69rem;
+}
+
+.icons {
+    background-color: var(--social-bg-color);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--social-icon-color);
+    height: 4rem;
+    padding-right: 4.56rem;
+    padding-left: 4.56rem;
+}
+
+.icons > svg {
+    width: 1.56rem;
+    height: 1.56rem;
+}
