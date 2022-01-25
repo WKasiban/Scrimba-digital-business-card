@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Scrimba-digital-business-card/static/css/main.d3dad604.css",
+    "main.js": "/Scrimba-digital-business-card/static/js/main.97c5bdb1.js",
+    "static/media/lauraPic.jpeg": "/Scrimba-digital-business-card/static/media/lauraPic.ef6c60402797dcca969c.jpeg",
+    "index.html": "/Scrimba-digital-business-card/index.html",
+    "main.d3dad604.css.map": "/Scrimba-digital-business-card/static/css/main.d3dad604.css.map",
+    "main.97c5bdb1.js.map": "/Scrimba-digital-business-card/static/js/main.97c5bdb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3dad604.css",
+    "static/js/main.97c5bdb1.js"
+  ]
+}
